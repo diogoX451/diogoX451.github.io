@@ -1,4 +1,6 @@
 # diogoX451.github.io
+ git remote add origin https://github.com/diogoX451/diogoX451.github.io.git
+ git push -u origin master
 
 <meta charset="utf-8">
 
