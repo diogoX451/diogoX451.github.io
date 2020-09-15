@@ -304,8 +304,10 @@ nav ul {
     width: auto;
     height: 20%;
     position: relative;
-    left: 100px;
+    left: auto;
+    margin: 0 0 0 30px;
 }
+
 
 #ajuste-2{
     position: relative;
@@ -314,5 +316,19 @@ nav ul {
 .correcao{
     text-align:center;
 }
+#img3{
 
+    width: auto;
+    height: 120px;
 }
+#img2{
+    width:60%
+    
+}
+ #img1{
+    width: auto;
+    height: 100px;
+    margin: 0 0 0 30px;
+ }
+
+ }
