@@ -34,7 +34,6 @@ figure .imagem_fundo{
 }
 figure .titulo{
     color: white;
-    line-height: 0.9%;
     text-shadow: 1px 1px black;
 }
 figure h1.titulo{
@@ -256,7 +255,7 @@ nav ul {
         height:auto;
 
     }
-    figure h1.titulo{
+    /* figure h1.titulo{
         font-size: 20px;
         letter-spacing: 2px;
         margin: 22% 20% 0% 20%;
@@ -272,7 +271,7 @@ nav ul {
         padding-bottom: 0px;
         letter-spacing: 2px;
 
-    }
+    } */
     #logo-r{
 
         width:50%;
