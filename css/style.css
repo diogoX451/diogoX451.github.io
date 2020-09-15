@@ -155,7 +155,7 @@ h1{
     padding: 0 0 0 40px;
     left: auto;
 }
-}
+
 /* Sobre Mim */
 
 #ajuste{
@@ -234,7 +234,7 @@ nav ul {
   .content p{font-size:14px; line-height:22px; color:#7c7c7c; text-align:justify;}
 
 /* RESPONSIVIDADE */
-@media only screen and ( max-width: 980px){
+@media all and (max-width: 768px){
     
     .divisao, .divisao.dois, .divisao.tres, .divisao.quatro{
         display: block;
@@ -257,19 +257,13 @@ nav ul {
 
     }
     figure h1.titulo{
-        font-size: 40px;
-        margin: 3%;
+        font-size: 25px;
+        margin: 0 3% 0 2%;
         
         
     }
     figure h2.titulo{
-        font-size: 30px;
-        padding-top: 20px;
-        margin: auto;
-        border-top: 2px solid white;
-        position: relative;
-        top: 10px;
-        left: 10px;
+       visibility: hidden;
 
     }
     #logo-r{
