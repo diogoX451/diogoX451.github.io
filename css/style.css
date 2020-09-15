@@ -138,21 +138,23 @@ h1{
 }
 .divisao img{
     width:auto;
-    height: 60%;
-    position:relative;
-    left:70px;
+    height: 50%;
+    
 }
 #img1{
     position:relative;
     left:10px;
 }
-img2{
-    position:relative;
-    left:10px;
+#img2{
+    position: relative;
+    padding: 0 0 0 70px;
+    left: auto;
 }
-img3{
-    position:relative;
-    left:10px;
+#img3{
+    position: relative;
+    padding: 0 0 0 40px;
+    left: auto;
+}
 }
 /* Sobre Mim */
 
