@@ -258,12 +258,19 @@ nav ul {
     }
     figure h1.titulo{
         font-size: 20px;
-        margin: 0 3% 0 2%;
+        letter-spacing: 2px;
+        margin: 22% 20% 0% 20%;
+        padding-bottom: 30px;
         
         
     }
     figure h2.titulo{
-       visibility: hidden;
+        padding-top: 20px;
+        font-size: 10px;
+        margin: 0% 0% 0% 0%;
+        border-top: 3px solid white;
+        padding-bottom: 0px;
+        letter-spacing: 2px;
 
     }
     #logo-r{
