@@ -137,8 +137,22 @@ h1{
     text-decoration:initial;
 }
 .divisao img{
-    width: 500px;
-    height: 50%;
+    width:auto;
+    height: 60%;
+    position:relative;
+    left:70px;
+}
+#img1{
+    position:relative;
+    left:10px;
+}
+img2{
+    position:relative;
+    left:10px;
+}
+img3{
+    position:relative;
+    left:10px;
 }
 /* Sobre Mim */
 
