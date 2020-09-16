@@ -163,6 +163,9 @@ h1{
 .link-2{
     color: #000000;
 }
+.link-2:hover{
+    color: white;
+}
 
 
 /* FOOTER */
