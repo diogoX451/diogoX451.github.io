@@ -27,7 +27,7 @@ figure{
 }
 
 figure .imagem_fundo{
-    background: url(img/imagem-fundo/capa-1.jpg);
+    background: url(img/capa-1.jpg);
     background-size: cover;
     height: 70%;
     padding: 100px;
@@ -139,16 +139,16 @@ h1{
     height: 50%;
     
 }
-#img1{
+.img1{
     position:relative;
     left:10px;
 }
-#img2{
+.img2{
     position: relative;
     padding: 0 0 0 70px;
     left: auto;
 }
-#img3{
+.img3{
     position: relative;
     padding: 0 0 0 40px;
     left: auto;
@@ -156,14 +156,9 @@ h1{
 
 /* Sobre Mim */
 
-#ajuste{
-    width: 300px;
-    height: 50%
-}
-#ajuste{
-    width: 200px;
-    height:20%;
-}
+
+
+
 /* FOOTER */
 footer{
     background:#946B63 ;
@@ -270,7 +265,7 @@ nav ul {
         letter-spacing: 2px;
 
     } */ 
-    #logo-r{
+    .logo-r{
 
         width:50%;
     }
@@ -304,7 +299,7 @@ nav ul {
          font-size: 15px;
          color:#f1f1f1; 
 }
-#ajuste{
+.ajuste{
     width: auto;
     height: 20%;
     position: relative;
@@ -313,26 +308,30 @@ nav ul {
 }
 
 
-#ajuste-2{
+.ajuste-2{
     position: relative;
     top:5px;
 }
 .correcao{
     text-align:center;
 }
-#img3{
+.img3{
 
     width: auto;
     height: 120px;
 }
-#img2{
+.img2{
     width:60%
     
 }
- #img1{
+ .img1{
     width: auto;
     height: 100px;
     margin: 0 0 0 30px;
+ }
+ .ajuste-3{
+     position: relative;
+     right: 45px;
  }
 
  }
