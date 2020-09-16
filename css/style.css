@@ -134,26 +134,30 @@ h1{
     color: black;
     text-decoration:initial;
 }
-.divisao img{
-    width:auto;
-    height: 50%;
+
     
-}
 .img1{
+    
+    height: 53%;
     position:relative;
     left:10px;
 }
 .img2{
+    width: 250px;
     position: relative;
     padding: 0 0 0 70px;
     left: auto;
 }
 .img3{
+    width: 340px;
     position: relative;
     padding: 0 0 0 40px;
     left: auto;
 }
-
+.ajuste-3{
+    width: 250px;
+    height: 25%;
+}
 /* Sobre Mim */
 
 
@@ -256,15 +260,7 @@ nav ul {
         padding-bottom: 10px;
         
     }
-    /* figure h2.titulo{
-        padding-top: 20px;
-        font-size: 10px;
-        margin: 0% 0% 0% 0%;
-        border-top: 3px solid white;
-        padding-bottom: 0px;
-        letter-spacing: 2px;
-
-    } */ 
+   
     .logo-r{
 
         width:50%;
@@ -329,9 +325,10 @@ nav ul {
     height: 100px;
     margin: 0 0 0 30px;
  }
- .ajuste-3{
+.ajuste-3{
      position: relative;
-     right: 45px;
+     width:25px;
+     height: 25%;
  }
 
  }
