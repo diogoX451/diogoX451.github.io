@@ -2,6 +2,12 @@ html, body{
     background: #2F3034;
      font-family: 'Poppins', sans-serif;
 }
+/* Animações */
+@keyframes animacao {
+    from{ color: #A4A4A4;}
+    to{ color:#FFFFFF}
+}
+
 .sec1{
     position: absolute;
     width: auto;
@@ -13,11 +19,70 @@ html, body{
     position: absolute;
     width: 103px;
     height: 27px;
-    left: 300px;
+    left: 200px;
     top: 50px;
     /* tamanho */
     font-size: 18px;
     line-height: 27px;
     /* Color */
     color: #FFFFFF;
+}
+.menu{
+    position: absolute;
+    width: 107px;
+    height: 24px;
+    left: 950px;
+    top: 51px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #A4A4A4;
+}
+.menu1{
+    position: absolute;
+    height: 24px;
+    width: 67px;
+    top: 51px;
+    left: 1110px;
+
+    font-style: normal;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-decoration: none;
+    color: #A4A4A4;
+}
+.menu2{
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 1200px;
+    top: 51px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #A4A4A4;
+}
+.menu  :hover{
+    animation-name: animacao;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+.menu1  :hover{
+    animation-name: animacao;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+.menu2  :hover{
+    animation-name: animacao;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
 }
